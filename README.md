@@ -9,4 +9,5 @@ Micro Service providing configuration and persistence services for YACX workspac
 
 ## About Yet Another Continuous X (Building, Testing, Integration, Deployment, etc.)
 
-YACX is a simple and easy to use tool to build, test, integrate and deploy source code.
+YACX is a simple and easy to use tool to build, test, integrate and deploy source code. It's made up of multiple
+micro services provide its gui and core features.
