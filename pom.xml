@@ -3,16 +3,20 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>no.lundesgaard.yacx</groupId>
+    <groupId>no.lundesgaard.yacx.workspace</groupId>
     <artifactId>yacx-workspace</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    
+
+    <modules>
+        <module>yacx-workspace-core</module>
+    </modules>
+
     <properties>
         <java.version>11</java.version>
         <spring-boot.version>2.1.0.RELEASE</spring-boot.version>
     </properties>
-    
+
     <dependencyManagement>
         <dependencies>
             <!-- Import dependency management from Spring Boot -->
@@ -25,7 +29,7 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-    
+
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -46,5 +50,5 @@
             <url>https://repo.spring.io/libs-release</url>
         </pluginRepository>
     </pluginRepositories>
-    
+
 </project>
